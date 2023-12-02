@@ -92,19 +92,19 @@ def time_stats(df):
     try:
         print('\nMost Popular Month: ', df['month'].mode()[0])
     except KeyError:
-        print('\nThere is no month data')
+        print('\nThere is no Month data')
 
     # TO DO: display the most common day of week
     try:
         print('\nMost Popular Day of Week: ', df['day_of_week'].mode()[0])
     except KeyError:
-        print('\nThere is no day of week data')
+        print('\nThere is no day of Week data')
 
     # TO DO: display the most common start hour
     try:
         print('\nMost Popular Start Hour: ', df['hour'].mode()[0])
     except KeyError:
-        print('\nThere is no hour data')
+        print('\nThere is no Hour data')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
