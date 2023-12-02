@@ -5,7 +5,7 @@
 Saturday, 2 December 2023
 
 ## Project Title
-Explore US Bikeshare Data
+**Explore US Bikeshare Data**
 
 ## Description
 
